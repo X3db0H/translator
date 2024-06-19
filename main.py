@@ -4,9 +4,7 @@ from art import tprint
 result = ''
 translator = Translator()
 tprint("Translator")
-tprint("For")
-tprint("Viktoria")
-dest_lan = str(input("Выбери язык [ru/en]: "))
+dest_lan = str(input("На какой язык перевести? [ru/en]: "))
 print("\nПеревожу...")
 
 
